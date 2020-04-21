@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  background:  whitesmoke;
+  color: rgb(207,19,107);
+}
+.container{
+  
+  margin: auto;
+  text-align: center;
+}
+
+.btn-green {
+  border-color: rgb(207,19,107);
+  background: transparent;
+  color: rgb(207,19,107);
+}
+ 
+
+.btn-green:hover {
+    background: rgb(207,19,107);
+    color: whitesmoke;
+  }
+  .form-control {
+    border-color:  rgb(207,19,107) ;
+  }
+  
+  .news {
+    display: none;
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .item-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .complete-item {
+    color:  rgb(207,19,107);
+  }
+  .complete-item:hover {
+    color:  rgb(207,19,107)9;
+  }
+  .edit-item {
+    color:  rgb(207,19,107);
+  }
+  .edit-item:hover {
+    color:  rgb(207,19,107);
+  }
+  .delete-item {
+    color:  #d62828;
+  }
+  .delete-item:hover {
+    color:  #d62828;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  .visibility {
+    opacity: 0.5;
+  }
+  .showItem {
+    display: block;
+  }
+  
